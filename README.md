@@ -33,8 +33,6 @@ ETH     2.000000 $2,116.31 $2,116.31 $4,232.62 $0.00 (0.0%)
 ## Support
 If this helps you, consider supporting development:
 
-**BTC:** `1KPUa9Njq86NJwmwqVmdjZ4oC8eHrXKqf9`
-
 ## License
 MIT License
 
