@@ -11,7 +11,6 @@ Usage:
     python portfolio-tracker.py --json
 
 Support: https://github.com/will-work-for-bitcoin/portfolio-tracker
-BTC Tips: 1KPUa9Njq86NJwmwqVmdjZ4oC8eHrXKqf9
 """
 
 import sys
@@ -90,7 +89,6 @@ def display_portfolio():
     total_pnl_pct = (total_pnl / total_cost * 100) if total_cost > 0 else 0
     print("-" * 60)
     print(f"{'TOTAL':<42} ${total_usd:>11,.2f} ${total_pnl:>9,.2f} ({total_pnl_pct:+.1f}%)")
-    print(f"\nBTC Tips: 1KPUa9Njq86NJwmwqVmdjZ4oC8eHrXKqf9")
 
 
 def display_json():
